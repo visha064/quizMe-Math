@@ -1,0 +1,89 @@
+.heading {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: DodgerBlue; */
+    
+}
+.glittering{
+    
+}
+.glow {
+    
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+.quiz{
+    font-family: cursive;
+    font-size: 30px;
+}
+.score{
+    color:blueviolet;
+    padding-bottom: 50px;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.op{
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: lightblue;
+    display: inline;
+    padding: 20px;
+    margin: 0px;
+}
+body{
+    background-color: whitesmoke;
+}
+.answer{
+    margin:auto;
+    display: inline;
+    margin-top: 60px;
+    color:white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.check{
+    display: flex;
+    justify-content: center;
+}
+button a{
+    color:white;
+}
+.heading div{
+    margin: 10px;
+}
+.heads{
+    font-size: 35px;
+}
+.company{
+    color: blueviolet;
+    font-family: cursive ;
+}
+
+.quiz{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    /* justify-content: space-around; */
+}
+.testing{
+    margin-bottom: 50px;
+}
